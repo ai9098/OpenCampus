@@ -9,14 +9,14 @@ MediaPipeUnityPluginを利用してUnityに手認識機能を組み込み、リ�
 なお、この作品は大学のオープンキャンパスにて展示し、画像処理を用いた技術を楽しく体験してもらうことを目的に制作しました。
 
 <p align="center">
-  <img src="Images/game.png" alt="RescueMazeGameplay" width="640">
+  <img src="Images/GameImage.png" width="640">
 </p>
 
 以下はクリア演出の様子です。
 ゲーム開始からクリアまで一連の流れが完結するように制作しました。
 
 <p align="center">
-  <img src="Images/clear.gif" alt="RescueMazeGameplay" width="640">
+  <img src="Images/clear.gif" width="640">
 </p>
 
 
