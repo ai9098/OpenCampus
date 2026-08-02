@@ -56,6 +56,9 @@ MediaPipeUnityPluginを利用してUnityに手認識機能を組み込み、リ�
 ## 動画
 [https://youtu.be/FqWzrbda8uA](https://youtu.be/FqWzrbda8uA)
 
+## 制作ブログ
+[https://note.com/aa02/m/mf854b5c0880c](https://note.com/aa02/m/mf854b5c0880c)
+
 ## 使用したアセット
 [MediaPipeUnityPlugin](https://github.com/homuler/MediaPipeUnityPlugin/releases)
 
