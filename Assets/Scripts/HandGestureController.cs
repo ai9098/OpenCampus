@@ -198,7 +198,7 @@ public class HandGestureController : MonoBehaviour
         var indexLm = landmarks.landmarks[8];
         Vector2 indexTempPositions = new Vector2(indexLm.x, indexLm.y);
 
-        // メインスレッドへ渡すために座標を保存
+        // メイン  スレッドへ渡すために座標を保存
         lock (lockObject)
         {
             rawNormalizedLandmarks = tempPositions;
