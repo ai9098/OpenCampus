@@ -18,7 +18,6 @@ MediaPipeUnityPluginを利用してUnityに手認識機能を組み込み、リ�
   <img src="Images/cleargif.gif" width="640">
 </p>
 
-
 ## 開発環境
 - Windows 11
 - Unity 6.3
@@ -58,6 +57,10 @@ MediaPipeUnityPluginを利用してUnityに手認識機能を組み込み、リ�
 
 ## 制作ブログ
 [https://note.com/aa02/m/mf854b5c0880c](https://note.com/aa02/m/mf854b5c0880c)
+
+## 参考動画
+Assets/Scripts/HandDataProcessor.csは、以下の動画のコードを使用させていただきました。
+[Unity + MediaPipe: Access Hand Landmark X, Y, Z & Track Multiple Hands (Beginner Friendly)](https://www.youtube.com/watch?v=1k80P0d8_AE&t=272s)
 
 ## 使用したアセット
 [MediaPipeUnityPlugin](https://github.com/homuler/MediaPipeUnityPlugin/releases)
