@@ -60,6 +60,7 @@ MediaPipeUnityPluginを利用してUnityに手認識機能を組み込み、リ�
 
 ## 参考動画
 Assets/Scripts/HandDataProcessor.csは、以下の動画のコードを使用させていただきました。
+
 [Unity + MediaPipe: Access Hand Landmark X, Y, Z & Track Multiple Hands (Beginner Friendly)](https://www.youtube.com/watch?v=1k80P0d8_AE&t=272s)
 
 ## 使用したアセット
