@@ -58,10 +58,11 @@ MediaPipeUnityPluginを利用してUnityに手認識機能を組み込み、リ�
 
 ## 制作ブログ
 [https://note.com/aa02/m/mf854b5c0880c](https://note.com/aa02/m/mf854b5c0880c)
-[25+ Free Stylized Textures - Grass, Ground, Floors, Walls & More](https://assetstore.unity.com/packages/2d/textures-materials/25-free-stylized-textures-grass-ground-floors-walls-more-241895?clickref=1100lDgHpAYi&utm_source=partnerize&utm_medium=affiliate&utm_campaign=unity_affiliate)
 
 ## 使用したアセット
 [MediaPipeUnityPlugin](https://github.com/homuler/MediaPipeUnityPlugin/releases)
+
+[25+ Free Stylized Textures - Grass, Ground, Floors, Walls & More](https://assetstore.unity.com/packages/2d/textures-materials/25-free-stylized-textures-grass-ground-floors-walls-more-241895?clickref=1100lDgHpAYi&utm_source=partnerize&utm_medium=affiliate&utm_campaign=unity_affiliate)
 
 
 ## 作者
