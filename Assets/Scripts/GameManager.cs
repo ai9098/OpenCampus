@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
 
     // ターゲット用のオブジェクトを管理する配列
     [SerializeField] private GameObject[] targetPrefabs;
+    // ブロックの生成先
+    [SerializeField] private Transform targetParent;
 
     public bool fireCount = false;  // 木ブロックが炎に触れている
     public bool waterCount = false;  // 溶岩ブロックが水に触れている
@@ -35,7 +37,6 @@ public class GameManager : MonoBehaviour
 
     public static GameManager Instance;
     
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
         Time.timeScale = 1f;
@@ -53,7 +54,6 @@ public class GameManager : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         // すでにクリアかゲームオーバーの処理が始まっていたら何もしない
@@ -136,8 +136,8 @@ public class GameManager : MonoBehaviour
             // スポーン位置もランダムにする
             Vector3 spawnPosition = selectedPrefab.transform.position + new Vector3(Random.Range(-20f, 20f), 0, Random.Range(-3f, 3f));
 
-            // 初期位置に生成
-            Instantiate(selectedPrefab, spawnPosition, selectedPrefab.transform.rotation);   
+            // 初期位置に生成（指定した親オブジェクトに生成）
+            Instantiate(selectedPrefab, spawnPosition, selectedPrefab.transform.rotation, targetParent);   
         }
 
         // 6未満なら、次のウェーブに生成する数を増やす
