@@ -20,7 +20,7 @@ MediaPipeUnityPluginを利用してUnityに手認識機能を組み込み、リ�
 
 ## 開発環境
 - Windows 11
-- Unity 6.3
+- Unity 6.0
 - MediaPipeUnityPlugin v0.16.3
 - C#
 - Logi C310 HD WebCam（Web カメラ）
